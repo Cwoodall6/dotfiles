@@ -38,7 +38,7 @@ source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 # ── modern CLI tools ─────────────────────────────────────────────────────────
 command -v zoxide  >/dev/null && eval "$(zoxide init zsh)"
 command -v fzf     >/dev/null && eval "$(fzf --zsh)"
-command -v thefuck >/dev/null && eval "$(thefuck --alias)"
+command -v thefuck >/dev/null && eval "$(thefuck --alias fix)"
 
 # eza > ls
 if command -v eza >/dev/null; then
